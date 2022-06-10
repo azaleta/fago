@@ -17,6 +17,7 @@ jobs:
         secret_access_key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
         account_id: ${{ secrets.AWS_ACCOUNT_ID }}
         repo: m208523
+        create_repo: true
         region: ap-northeast-3
         tags: latest,${{ github.sha }}
         image_scanning_configuration: true
